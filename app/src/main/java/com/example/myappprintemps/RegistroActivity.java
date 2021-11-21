@@ -94,12 +94,12 @@ public class RegistroActivity extends AppCompatActivity {
             if (!u.isNull()){
                 Toast.makeText(RegistroActivity.this, "Campos vacios, porfavor intente nuevamente", Toast.LENGTH_SHORT).show();
             }else if (dao.insertUsuario(u)){
-                Toast.makeText(RegistroActivity.this, "Registro Exitoso", Toast.LENGTH_SHORT).show();
+                Toast.makeText(RegistroActivity.this, "En Hora buena...Registro Exitoso!!!", Toast.LENGTH_SHORT).show();
                 Intent i2 = new Intent(RegistroActivity.this,loginActivity.class);
                 startActivity(i2);
                 finish();
             }else{
-                Toast.makeText(RegistroActivity.this, "Usuario ya registrado", Toast.LENGTH_SHORT).show();
+                Toast.makeText(RegistroActivity.this, "ERROR: Usuario ya registrado", Toast.LENGTH_SHORT).show();
 
             }
         }
