@@ -2,8 +2,8 @@ package Objetos;
 
 public class DiseñoFlores {
     int id;
-    String [] tipos = {"Arreglos Florales","Caja de Flores","Ramos"};
-    int[] precios = {20000, 15000, 9000};
+    String [] tipos = {"Arreglos Florales","Caja de Flores","Ramos de Flores"};
+    int[] precios = {20000, 15000, 10000};
 
     public DiseñoFlores(){
         id = 1;
