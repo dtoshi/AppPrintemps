@@ -6,16 +6,20 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.VideoView;
 
 public class AcercaDeActivity extends AppCompatActivity {
 
     private VideoView video;
+    Button btnVolver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_acerca_de);
+
+        btnVolver=(Button)findViewById(R.id.btnVolverHomedeAcerca);
 
         video = findViewById(R.id.vw);
         String ruta = "android.resource://" + getPackageName() + "/" + R.raw.videoflores;
@@ -27,6 +31,13 @@ public class AcercaDeActivity extends AppCompatActivity {
         //controles para el video
         //MediaController media = new MediaController(this);
         //video.setMediaController(media);
+    }
+
+    public void VolverHome(View view)
+    {
+        Intent c = new Intent(AcercaDeActivity.this,HomeActivity.class);
+        startActivity(c);
+        finish();
     }
 
     public void Marcado(View view)
