@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyAppPrintemps</string>
+    <string name="bienvenido_a">Bienvenido a</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="btnVerPrecios">Ver Precios</string>
+    <string name="scrollcatalogo">scrolcata</string>
+</resources>

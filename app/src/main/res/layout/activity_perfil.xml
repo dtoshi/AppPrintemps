@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondocatalogo"
+    tools:context=".PerfilActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="844dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView9"
+                    android:layout_width="354dp"
+                    android:layout_height="574dp"
+                    android:layout_marginTop="60dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/foreground_text">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="185dp"
+                            android:layout_height="162dp"
+                            android:layout_marginTop="30dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.503"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/iconocuenta" />
+
+                        <LinearLayout
+                            android:layout_width="288dp"
+                            android:layout_height="289dp"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView25">
+
+                            <TextView
+                                android:id="@+id/tvNombre"
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:layout_marginBottom="20dp"
+                                android:ems="10"
+                                android:minHeight="48dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:text=""
+                                android:fontFamily="@font/bad_script"
+                                android:textAlignment="center"
+                                android:textColor="#171515"
+                                android:textColorHighlight="#FFFFFF"
+                                android:textColorHint="#C1171616"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/tvApellido"
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:layout_marginBottom="20dp"
+                                android:ems="10"
+                                android:minHeight="48dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:text=""
+                                android:fontFamily="@font/bad_script"
+                                android:textAlignment="center"
+                                android:textColor="#171515"
+                                android:textColorHighlight="#FFFFFF"
+                                android:textColorHint="#C1171616"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/tvUsuario"
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:layout_marginBottom="20dp"
+                                android:ems="10"
+                                android:minHeight="48dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:text=""
+                                android:fontFamily="@font/bad_script"
+                                android:textAlignment="center"
+                                android:textColor="#171515"
+                                android:textColorHighlight="#FFFFFF"
+                                android:textColorHint="#C1171616"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/tvPass"
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:layout_marginBottom="20dp"
+                                android:ems="10"
+                                android:minHeight="48dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:text=""
+                                android:fontFamily="@font/bad_script"
+                                android:textAlignment="center"
+                                android:textColor="#171515"
+                                android:textColorHighlight="#FFFFFF"
+                                android:textColorHint="#C1171616"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/bad_script"
+                            android:text="Mis Datos"
+                            android:textAlignment="center"
+                            android:textColor="#E91E63"
+                            android:textSize="28sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout9"
+                    android:layout_width="375dp"
+                    android:layout_height="198dp"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.485"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView9">
+
+                    <Button
+                        android:id="@+id/btnActualizar"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/btn_radius"
+                        android:fontFamily="@font/bad_script"
+                        android:text="Actualizar Datos"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/btnEliminar"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/btn_radius"
+                        android:fontFamily="@font/bad_script"
+                        android:text="Eliminar Cuenta"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnvolverHome"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/btn_radius"
+                        android:fontFamily="@font/bad_script"
+                        android:text="Volver"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="310dp"
+                    android:layout_height="64dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout9" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/drawable/btn_radius.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/drawable/foreground_desing.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/drawable/foreground_login.xml" value="0.14020270270270271" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/drawable/foreground_text.xml" value="0.14020270270270271" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/drawable/gradientbackgroundmain.xml" value="0.17263513513513515" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/font/.xml" value="0.18175675675675676" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/font/andika.xml" value="0.18175675675675676" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/font/font.xml" value="0.18175675675675676" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/layout/activity_acerca_de.xml" value="0.152" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/layout/activity_carrito.xml" value="0.16216216216216217" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/layout/activity_catalogo.xml" value="0.176" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/layout/activity_perfil.xml" value="0.176" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/layout/activity_perfil_modificar.xml" value="0.2" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/layout/activity_registro.xml" value="0.2" />
+        <entry key="..\:/Users/Huawei/Desktop/Proyects/ProjectApp_Printemps_v5/app/src/main/res/layout/dialogfragmentcatalogo.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondocatalogo"
+    tools:context=".PerfilModificarActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="844dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView9"
+                    android:layout_width="358dp"
+                    android:layout_height="604dp"
+                    android:layout_marginTop="50dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/foreground_text">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="206dp"
+                            android:layout_height="165dp"
+                            android:layout_marginTop="50dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/ajuste" />
+
+                        <LinearLayout
+                            android:layout_width="358dp"
+                            android:layout_height="339dp"
+                            android:layout_marginTop="48dp"
+                            android:orientation="vertical"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.555"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                            <EditText
+                                android:id="@+id/EdiNombre"
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                android:layout_marginBottom="20dp"
+                                android:ems="10"
+                                android:fontFamily="@font/bad_script"
+                                android:hint="Ingrese Nuevo Nombre"
+                                android:inputType="textPersonName"
+                                android:minHeight="48dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:textAlignment="center"
+                                android:textColor="#171515"
+                                android:textColorHighlight="#FFFFFF"
+                                android:textColorHint="#C1171616"
+                                android:textSize="20sp" />
+
+                            <EditText
+                                android:id="@+id/EdiApellido"
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                android:layout_marginBottom="20dp"
+                                android:ems="10"
+                                android:hint="Ingrese Nuevo Apellido"
+                                android:fontFamily="@font/bad_script"
+                                android:inputType="textPersonName"
+                                android:minHeight="48dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:textAlignment="center"
+                                android:textColor="#171515"
+                                android:textColorHighlight="#FFFFFF"
+                                android:textColorHint="#C1171616"
+                                android:textSize="20sp" />
+
+                            <EditText
+                                android:id="@+id/EdiUser"
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                android:layout_marginBottom="20dp"
+                                android:ems="10"
+                                android:hint="Ingrese nuevo Usuario"
+                                android:fontFamily="@font/bad_script"
+                                android:inputType="textPersonName"
+                                android:minHeight="48dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:textAlignment="center"
+                                android:textColor="#171515"
+                                android:textColorHighlight="#FFFFFF"
+                                android:textColorHint="#C1171616"
+                                android:textSize="20sp" />
+
+                            <EditText
+                                android:id="@+id/EdiPass"
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                android:layout_marginBottom="20dp"
+                                android:ems="10"
+                                android:hint="Ingrese nueva Contraseña"
+                                android:fontFamily="@font/bad_script"
+                                android:inputType="textPassword"
+                                android:minHeight="48dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:textAlignment="center"
+                                android:textColor="#171515"
+                                android:textColorHighlight="#FFFFFF"
+                                android:textColorHint="#C1171616"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout8"
+                    android:layout_width="376dp"
+                    android:layout_height="145dp"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.485"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txm2">
+
+                    <Button
+                        android:id="@+id/btnActualizar"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/btn_radius"
+                        android:text="Actualizar"
+                        android:fontFamily="@font/bad_script"
+                        android:textAllCaps="false"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/btnCancelare"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/btn_radius"
+                        android:text="Cancelar"
+                        android:fontFamily="@font/bad_script"
+                        android:textAllCaps="false"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="325dp"
+                    android:layout_height="107dp"
+                    android:layout_marginTop="20dp"
+                    android:text=""
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.494"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/txm2"
+                    android:layout_width="295dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="16dp"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView9" />
+
+                <ProgressBar
+                    android:id="@+id/pbEditar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="86dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout8" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
