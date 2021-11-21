@@ -298,6 +298,7 @@
                     android:layout_marginTop="16dp"
                     android:background="@drawable/btn_radius"
                     android:fontFamily="@font/bad_script"
+                    android:onClick="VolverHome"
                     android:text="Volver al Home"
                     android:textAllCaps="false"
                     android:textSize="20sp"
