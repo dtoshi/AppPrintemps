@@ -71,7 +71,7 @@
         android:background="@drawable/btn_radius"
         android:fontFamily="@font/bad_script"
         android:padding="7dp"
-        android:text="iniciar Sesion"
+        android:text="Iniciar Sesion"
         android:textAllCaps="false"
         android:textStyle="bold"
         android:textSize="20sp"
